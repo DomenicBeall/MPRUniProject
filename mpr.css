@@ -1,0 +1,65 @@
+html, body {
+    font-family: sans-serif;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+a, a:hover, a:visited, a:focus {
+    color: black;
+}
+
+#header > img {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content > img {
+    float: right;
+}
+
+#dropdown-head {
+    height: 20px;
+    background-color: rgb(255, 189, 145);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#dropdown {
+    float: left;
+}
+
+#dropdown-content {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    flex-direction: column;
+}
+
+#dropdown a {
+    padding: 10px;
+    padding-right: 50px;
+    text-align: left;
+    background-color: rgb(255, 189, 145);
+}
+
+#dropdown a:hover {
+    background-color: rgb(255, 167, 109);
+}
+
+.content {
+    overflow: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+hr {
+    border-top: 3px solid black;
+}
+
+#container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
