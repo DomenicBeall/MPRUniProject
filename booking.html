@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Mornington Peninsula Restaurant</title>
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./mpr.css">
+</head>
+<body>
+    
+    <div id="container">
+        <div id="header">
+            <img src="./assets/logo.png" alt="The restaurant logo, MPR in vertical type.">
+            <h1>MPR</h1>
+            <h1>Mornington Peninsula Restaurant</h1>
+        </div>
+    
+        <hr>
+    
+        <div class="content">
+            <div id="dropdown">
+                <div id="dropdown-head">
+                    <b>Booking</b><span id="dropdown-icon">&#11206;</span>	
+                </div>
+                <div id="dropdown-content">
+                    <a href="./index.html">Main</a>
+                    <a href="./menu.html">Menu</a>
+                    <a href="./contact_us.html">Contact Us</a>
+                    <a href="./gallery.html">Gallery</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Booking</h2>
+            <form style="display: flex; flex-direction: column; width: 50%;">
+                <label for="first-name">First Name:</label>
+                <input type="text" name="first-name" id="first-name">
+                <br>
+                <label for="last-name">Last Name:</label>
+                <input type="text" name="last-name" id="last-name">
+                <br>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" placeholder="ex: myname@example.com">
+                <br>
+                <label for="phone">Phone:</label>
+                <input type="text" name="phone" id="phone">
+                <br>
+                <label for="guests">Number of Guests:</label>
+                <input type="text" name="guests" id="guests" style="width: 30px;">
+                <br>
+                <label for="requests">Any Special Requests?</label>
+                <textarea type="text" name="requests" id="requests" rows="3"></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+
+        <footer style="text-align: center;">
+            <hr>
+            <p>© 2021: Domenic Beall</p>
+        </footer>
+
+    </div>
+
+
+</body>
+    <!-- Javascript -->
+    <script src="./mpr.js"></script>
+</html>
