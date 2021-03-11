@@ -9,12 +9,6 @@ a, a:hover, a:visited, a:focus {
     color: black;
 }
 
-#header > img {
-    float: left;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 #main-image {
     float: right;
 }
@@ -25,6 +19,15 @@ a, a:hover, a:visited, a:focus {
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
+}
+
+#logo {
+    background-image: url(./assets/logo.png);
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #dropdown {
